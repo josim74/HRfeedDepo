@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">HRfeed Depo</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="phone_number_here">Phone Number Here</string>
+    <string name="password_here">Password Here</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_main">HR feed Depo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quantity">Quantity</string>
+    <string name="dealer_name">Dealer Name:</string>
+    <string name="korim_enterprize_ltd">Korim Enterprize LTD</string>
+    <string name="address">Address:</string>
+    <string name="product_rate">Product Rate:</string>
+    <string name="pbc">PBC</string>
+    <string name="gazipur">Gazipur</string>
+    <string name="avialable">Avialable:</string>
+    <string name="driver_name">Driver Name:</string>
+    <string name="car_number">Car Number:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="approve">Approve</string>
+    <string name="product_name">Product:</string>
+    <string name="quantity_order_schedule">Quantity:</string>
+    <string name="total_order_schedule">Total:</string>
+    <string name="driver_name_order_schedule">Driver Name:</string>
+    <string name="car_number_order_schedule">Car Number:</string>
+    <string name="phone_order_schedule">Phone:</string>
+
+    <string-array name="Category">
+        <item>Select Category</item>
+        <item>Category1</item>
+        <item>Category2</item>
+        <item>Category3</item>
+    </string-array>
+    <string-array name="sub_category">
+        <item>Select Sub Category</item>
+        <item>Sub Category1</item>
+        <item>Sub Category2</item>
+        <item>Sub Category3</item>
+    </string-array>
+    <string-array name="status">
+        <item>Select Status</item>
+        <item>Production</item>
+        <item>Transfer</item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="dealer_name">
+        <item>Select Dealer</item>
+        <item>Dealer One</item>
+        <item>Dealer two</item>
+        <item>Dealer Three</item>
+    </string-array>
+    <string-array name="products">
+        <item>Select Product</item>
+        <item>Product1</item>
+        <item>Product2</item>
+        <item>Product3</item>
+    </string-array>
+    <string-array name="delivery_place">
+        <item>Select</item>
+        <item>Factory1</item>
+        <item>Factory2</item>
+        <item>Depo1</item>
+        <item>Depo2</item>
+        <item>Depo3</item>
+        <item>Depo4</item>
+        <item>Depo5</item>
+        <item>Depo6</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="josim74.git.com.hrfeeddepo.OrderRequest">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_dealer_name_list"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_date_list"
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="Quantity:"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_quantity_list"
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="15"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="MRP:"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_mrp_list"
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="Total:"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_total_price"
+                            android:layout_gravity="center"
+                            android:textSize="13sp"
+                            android:text="000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

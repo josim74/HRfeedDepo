@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_date_stock"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="16dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Select Date" />-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/imageButton_stock"-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@null"-->
+                    <!--android:padding="16dp"-->
+                    <!--android:src="@android:drawable/ic_menu_my_calendar" />-->
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp">-->
+                <!--<TextView-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Select"/>-->
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinner_category_stock"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:prompt="Category"-->
+                    <!--android:entries="@array/Category"-->
+                    <!--android:gravity="center_vertical" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp">-->
+                <!--<TextView-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Select"/>-->
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinner_subcategory_stock"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:prompt="Sub Category"-->
+                    <!--android:entries="@array/sub_category"-->
+                    <!--android:gravity="center_vertical" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp">-->
+                <!--<TextView-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/quantity"/>-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_quantity"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:ems="10"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:hint="Number of Quantity"-->
+                    <!--android:inputType="number" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp">-->
+                <!--<TextView-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Status"/>-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinner_status_stock"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:prompt="Sub Category"-->
+                    <!--android:entries="@array/status"-->
+                    <!--android:gravity="center_vertical" />-->
+
+            <!--</LinearLayout>-->
+
+
+
+            <!--<Button-->
+                <!--android:textSize="18sp"-->
+                <!--android:id="@+id/btn_submit"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:paddingLeft="32dp"-->
+                <!--android:paddingRight="32dp"-->
+                <!--android:paddingTop="16dp"-->
+                <!--android:paddingBottom="16dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Submit" />-->
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+
+</LinearLayout>

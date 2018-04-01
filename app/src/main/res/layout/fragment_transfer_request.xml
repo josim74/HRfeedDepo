@@ -60,16 +60,16 @@
                         android:layout_height="wrap_content">
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/product_name"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="1.2"
+                            android:layout_weight="0.5"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_productName_orderSchedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="PBC"
                             android:gravity="center"
                             android:layout_width="0dp"
@@ -77,16 +77,16 @@
                             android:layout_height="wrap_content" />
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/quantity_order_schedule"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="0.7"
+                            android:layout_weight="0.5"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_quantity_order_schedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="20"
                             android:gravity="center"
                             android:layout_width="0dp"
@@ -94,20 +94,20 @@
                             android:layout_height="wrap_content" />
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/total_order_schedule"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="0.8"
+                            android:layout_weight="0.5"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_total_order_schedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
-                            android:text="100000"
+                            android:textSize="11sp"
+                            android:text="10000000"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="1.5"
+                            android:layout_weight="0.7"
                             android:layout_height="wrap_content" />
                     </LinearLayout>
                     <LinearLayout
@@ -118,16 +118,16 @@
                         android:layout_height="wrap_content">
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/driver_name_order_schedule"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="1.2"
+                            android:layout_weight="0.4"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_driverName_order_schedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="Monir Driver"
                             android:gravity="center"
                             android:layout_width="0dp"
@@ -135,37 +135,197 @@
                             android:layout_height="wrap_content" />
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/car_number_order_schedule"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="0.7"
+                            android:layout_weight="0.5"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_carNumber_order_schedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="Dhaka 1230"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="0.8"
+                            android:layout_weight="1"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:layout_gravity="center"
-                            android:textSize="13sp"
+                            android:textSize="11sp"
                             android:text="@string/phone_order_schedule"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="0.8"
+                            android:layout_weight="0.5"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/tv_phone_order_schedule"
                             android:layout_gravity="center"
-                            android:textSize="13sp"
-                            android:text="017000000"
+                            android:textSize="11sp"
+                            android:text="01700000000"
                             android:gravity="center"
                             android:layout_width="0dp"
-                            android:layout_weight="1.5"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imgbtn_go_transfer_details_TransferRequest"
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:layout_height="wrap_content" />
                     </LinearLayout>
                 </LinearLayout>
@@ -173,7 +333,802 @@
                 <ImageButton
                     android:scaleType="centerCrop"
                     android:layout_width="48dp"
-                    android:layout_height="128dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:text="SMG SoftTech LTD"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="10sp"
+                            android:text="20-10-2018"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/product_name"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="PBC"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/quantity_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="20"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/total_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="10000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/driver_name_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Monir Driver"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/car_number_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="Dhaka 1230"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="@string/phone_order_schedule"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="11sp"
+                            android:text="01700000000"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="centerCrop"
+                    android:layout_width="48dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/next" />
             </LinearLayout>
         </android.support.v7.widget.CardView>

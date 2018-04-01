@@ -19,9 +19,10 @@
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="title_activity_main">HR feed Depo</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_order_request">Order Request</string>
+    <string name="title_order_schedule">Order Schedule</string>
+    <string name="title_transfer_request">Transfer Request</string>
+    <string name="title_transfer_schedule">Transfer Schedule</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -37,12 +38,12 @@
     <string name="car_number">Car Number:</string>
     <string name="phone_number">Phone Number:</string>
     <string name="approve">Approve</string>
-    <string name="product_name">Product:</string>
-    <string name="quantity_order_schedule">Quantity:</string>
+    <string name="product_name">PROD:</string>
+    <string name="quantity_order_schedule">QTY:</string>
     <string name="total_order_schedule">Total:</string>
-    <string name="driver_name_order_schedule">Driver Name:</string>
-    <string name="car_number_order_schedule">Car Number:</string>
-    <string name="phone_order_schedule">Phone:</string>
+    <string name="driver_name_order_schedule">DN:</string>
+    <string name="car_number_order_schedule">CNO:</string>
+    <string name="phone_order_schedule">PNO:</string>
 
     <string-array name="Category">
         <item>Select Category</item>

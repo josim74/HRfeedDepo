@@ -21,15 +21,18 @@ public class MainActivity extends AppCompatActivity {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.navigation_order_request:
                     fragmentTransaction.replace(R.id.content_main,new OrderRequest()).commit();
                     return true;
-                case R.id.navigation_dashboard:
+                case R.id.navigation_order_shcedule:
                     fragmentTransaction.replace(R.id.content_main,new OrderSchedule()).commit();
                     return true;
-//                case R.id.navigation_notifications:
-//                    mTextMessage.setText(R.string.title_notifications);
-//                    return true;
+                case R.id.navigation_transfer_request:
+                    fragmentTransaction.replace(R.id.content_main,new TransferRequest()).commit();
+                    return true;
+                case R.id.navigation_transfer_schedule:
+                    fragmentTransaction.replace(R.id.content_main,new TransferSchedule()).commit();
+                    return true;
             }
             return false;
         }
